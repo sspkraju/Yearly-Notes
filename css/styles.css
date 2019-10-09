@@ -90,11 +90,11 @@ p{
 	color: white;
 }
 .message{
-	  margin: 2px;
+	  margin: 5%;
 	  border: solid 1.5px #EEE;
-	  padding: 3px;
-	  line-height: 18px;
-	  border-radius: 9px;
+	  padding: 8%;
+	  line-height: 10%;
+	  border-radius: 5%;
 	  color: black;
       background: #f6ecbf;
 	   border-bottom-left-radius: 0.2px;
