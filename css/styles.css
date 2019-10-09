@@ -1,0 +1,169 @@
+.month{
+	margin-bottom:15px;
+    height: 320px;
+	border-right: solid;
+	border-top: solid;
+	border-radius: 3%;
+	background-color: white;
+	padding-right: 1.5px;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+.jan{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
+	                  url("jan.jpg");
+}
+
+.feb{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
+	                  url("feb.jpg");
+}
+
+.mar{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
+	                  url("mar.jpg");
+}
+
+.apr{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
+	                  url("apr.jpg");
+}
+
+.may{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
+	                  url("may.jpg");
+}
+
+.jun{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
+	                  url("jun.jpg");
+}
+.jul{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
+	                  url("jul.jpg");
+}
+.aug{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
+	                  url("aug.jpg");
+}
+.sep{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
+	                  url("sep.jpg");
+}
+.oct{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
+	                  url("oct.jpg");
+}
+.nov{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
+	                  url("nov.jpg");
+}
+.dec{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
+	                  url("dec.jpg");
+}
+body{
+	background-color: black;
+	margin: 0;
+}
+
+.box {
+  position: absolute;
+  top: 2%;
+  right:2%;
+  font-size: 1.5rem;
+  font-stretch:wider;
+  color: white;
+  background-color: #2f89fc;
+  border-radius: 20px;
+}
+
+
+h3{ margin-top: 0px;
+    color: white;
+    font-size: 265%;
+    font-family: 'Staatliches', cursive;}
+    
+p{
+	color: white;
+}
+.message{
+	  margin: 2px;
+	  border: solid 1.5px #EEE;
+	  padding: 3px;
+	  line-height: 18px;
+	  border-radius: 9px;
+	  color: black;
+      background: #f6ecbf;
+	   border-bottom-left-radius: 0.2px;
+	   float: right;
+	   font-family: 'Varela Round', sans-serif;
+	   font-weight: normal;
+
+}   
+
+.fading{
+	background-color: #ca3e47;
+	margin: 2px;
+	padding-left: 4px;
+}
+
+.navbar{
+	background-color: black;
+}
+
+.scrollbar-near-moon::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 5px; }
+
+.scrollbar-near-moon::-webkit-scrollbar {
+width: 5px;
+background-color: #F5F5F5; }
+
+.scrollbar-near-moon::-webkit-scrollbar-thumb {
+border-radius: 5px;
+-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+background-image: -webkit-gradient(linear, left bottom, left top, from(#5ee7df), to(#b490ca));
+background-image: -webkit-linear-gradient(bottom, #5ee7df 0%, #b490ca 100%);
+background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%); }
+
+.thin::-webkit-scrollbar {
+width: 4px; }
+ .myblack{
+ color: black;
+ }
+ 
+ .bollld{
+ font-size: 1.1rem;
+ font-style: oblique;	
+ }
+ 
+ .alert{
+ padding: 0;
+ margin-bottom: 0;
+ }
+ 
+ #navyear{
+ font-weight: bolder;
+ font-size: x-large;
+ padding: 2%;
+ background-color: #3c4245;
+ text-align: center;	
+ border: medium;
+ border-radius: 5px;
+ }
+ 
+ #navbarSupportedContent{
+ margin-left: auto;
+ padding: 0px;
+ width: 20%;
+ text-align: center;
+ 
+ }
+ 
+ .navbar-brand{
+ font-weight: bolder;
+ font-size: x-large;
+ }
