@@ -1,12 +1,12 @@
 .month{
 	margin-bottom:15px;
-    height: 500px;
+    height: 50%;
 	border-right: solid;
 	border-top: solid;
 	border-radius: 3%;
 	background-color: white;
 	padding-right: 1.5px;
-        font-size: 10rem;
+        font-size: 5rem;
 	font-family: 'Titillium Web', sans-serif;
 
 }
