@@ -22,7 +22,7 @@
       <nav class="navbar navbar-expand-md navbar-dark">
          <a class="navbar-brand" href="#">Yearly Notes</a>
                <div  id="navbarSupportedContent">
-                  <button type="button" class="btn btn-outline-primary btnn" id="navyear">2019<span>📅</span></button>
+                  <button type="button" class="btn btn-outline-primary btnn" id="navyear"><b id="onlyyear">2019</b><span>📅</span></button>
                   <input type="hidden" class="righted" id="hidde_date_field"/>
                </div>
          
@@ -207,7 +207,7 @@
   	    autoclose: true, }).on("changeDate", function (e) {
   	    	var cur = $("#navyear").datepicker( "getDate" );
   	    	var yr = cur.getFullYear();
-  	    	$('#navyear').text(yr);
+  	    	$('#onlyyear').text(yr);
     	  
   	    });
       
