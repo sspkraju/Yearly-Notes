@@ -16,55 +16,69 @@
 .jan{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("jan.jpg");
+	background-size: 100%;
 }
 
 .feb{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("feb.jpg");
+	                  
+	background-size: 100%;
 }
 
 .mar{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("mar.jpg");
+	                  
+	                  background-size: 100%;
 }
 
 .apr{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("apr.jpg");
+	                  background-size: 100%;
 }
 
 .may{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("may.jpg");
+	                  background-size: 100%;
 }
 
 .jun{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("jun.jpg");
+	                  background-size: 100%;
 }
 .jul{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("jul.jpg");
+	                  background-size: 100%;
 }
 .aug{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("aug.jpg");
+	                  background-size: 100%;
 }
 .sep{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("sep.jpg");
+	                  background-size: 100%;
 }
 .oct{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("oct.jpg");
+	                  background-size: 100%;
 }
 .nov{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("nov.jpg");
+	                  background-size: 100%;
 }
 .dec{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("dec.jpg");
+	                  background-size: 100%;
 }
 body{
 	background-color: black;
