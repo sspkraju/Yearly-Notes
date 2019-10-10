@@ -114,6 +114,7 @@ p{
 
 .navbar{
 	background-color: black;
+	margin:0.4%;
 }
 
 .scrollbar-near-moon::-webkit-scrollbar-track {
@@ -222,7 +223,14 @@ width: 4px; }
         height:20%;
         font-size: 3rem;
     }
+    
     .myspace{
-       margin: 15%;
+
+    margin: 15%;
     }
+    
+    .navbar{
+	background-color: black;
+	margin:3%;
+}
 }
