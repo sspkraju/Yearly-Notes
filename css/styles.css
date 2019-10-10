@@ -1,16 +1,18 @@
 .month{
 	margin-bottom:15px;
-        height: 350px;
+    height: 320px;
 	border-right: solid;
 	border-top: solid;
 	border-radius: 3%;
 	background-color: white;
 	padding-right: 1.5px;
-        font-size: 2.5rem;
-	font-family: 'Titillium Web', sans-serif;
-
 }
 
+.alert{
+	
+	margin-top: 4%;
+	margin-bottom: 0%;
+}
 .jan{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("jan.jpg");
@@ -71,9 +73,9 @@ body{
 
 .box {
   position: absolute;
-  top: 2%;
+  top: 0.5%;
   right:2%;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-stretch:wider;
   color: white;
   background-color: #2f89fc;
@@ -83,24 +85,24 @@ body{
 
 h3{ margin-top: 0px;
     color: white;
-    font-size: 265%;
+    font-size: 225%;
     font-family: 'Staatliches', cursive;}
     
 p{
 	color: white;
 }
 .message{
-	  margin: 3%;
+	  margin: 2px;
 	  border: solid 1.5px #EEE;
-	  padding: 2%;
-	  border-radius: 5%;
+	  padding: 3px;
+	  line-height: 18px;
+	  border-radius: 9px;
 	  color: black;
       background: #f6ecbf;
 	   border-bottom-left-radius: 0.2px;
 	   float: right;
 	   font-family: 'Varela Round', sans-serif;
 	   font-weight: normal;
-           line-height: 36px;
 
 }   
 
@@ -137,8 +139,8 @@ width: 4px; }
  }
  
  .bollld{
- font-size: 1.1rem;
- font-style: oblique;	
+ font-size: 0.9rem;
+ font-weight: bold;	
  }
  
  .alert{
@@ -148,7 +150,7 @@ width: 4px; }
  
  #navyear{
  font-weight: bolder;
- font-size: x-large;
+ font-size: 350%;
  padding: 2%;
  background-color: #3c4245;
  text-align: center;	
@@ -166,5 +168,58 @@ width: 4px; }
  
  .navbar-brand{
  font-weight: bolder;
- font-size: x-large;
+ font-size: 300%;
+ text-align: center;
  }
+ 
+ .btnn{
+ height: 35%;
+ }
+ 
+ .righted{
+  display: inline-block;
+ }
+ 
+ @media (max-width: 1028px) {
+	
+	h3{ font-size: 700%;
+              }
+              
+    .box{
+    width: 14%;
+    height: 90px;
+    font-size: 80px;
+    font-weight: bolder;
+    top: 2%;
+    right:2%;
+    
+    }
+    
+    .myblack {
+    font-size: 300%;
+    }
+    
+     .bollld{
+     font-size: 100%;
+     }        
+     
+     .month{
+     height: 100%;
+     } 
+     
+
+ #navbarSupportedContent{
+ width: 40%;
+ margin-top: 10px;
+ margin-bottom: 25px;
+ }
+     #navyear{
+     font-size: 600%;
+     }    
+     
+     .datepicker {
+        width: 90%;
+        height:20%;
+        font-size: 3rem;
+    }
+}
