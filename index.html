@@ -22,8 +22,19 @@
       <nav class="navbar sticky-top navbar-expand-md navbar-dark">
          <a class="navbar-brand" href="#">Yearly Notes</a>
                <div  id="navbarSupportedContent">
-                  <button type="button" class="btn btn-outline-primary btnn" id="navyear"><b id="onlyyear">2019</b><span>📅</span></button>
-                  <input type="hidden" class="righted" id="hidde_date_field"/>
+                  <!-- <button type="button" class="btn btn-outline-primary btnn" id="navyear"><b id="onlyyear">2019</b><span>📅</span></button>
+                  <input type="hidden" class="righted" id="hidde_date_field"/> -->
+                  
+ <div class="input-group">
+  <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+    <option>2018</option>
+    <option selected>2019</option>
+    <option>2020</option>
+  </select>
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary btn-sm nvbtn" type="button"></button>
+  </div>
+</div>
                </div>
          
       </nav>
@@ -172,9 +183,9 @@
                   </button>
                </div>
                <div class="modal-body">
-                  <!--  <p>Date: <input type="text" id="datepicker"></p> -->
-		   <p>Date: <input type='date' class="inpdate" min='2019-01-01' max='2019-01-31'></input></p>
+                  <p>Date: <input type='date' class="inpdate" min='2019-01-01' max='2019-01-31'></input></p>
                   <textarea class="form-control" name="postBody" rows="5" cols="30"></textarea>
+                  <br>
                   <button type="submit" class="btn btn-primary">Publish</button>
                </div>
             </div>
@@ -182,6 +193,7 @@
       </div>
       </div>
    </body>
+  
    <script TYPE="text/javascript"> 
       var date1 = new Date("January 1, 2018 01:15:00");
       var startdate = new Date("January 31, 2018 01:15:00");

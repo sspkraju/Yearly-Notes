@@ -16,7 +16,7 @@
 .jan{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("jan.jpg");
-	background-size: 100%;
+	background-size: cover;
 }
 
 .feb{
@@ -36,7 +36,7 @@
 .apr{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
 	                  url("apr.jpg");
-	                  background-size: 100%;
+	                  background-size: cover;
 }
 
 .may{
@@ -93,7 +93,8 @@ body{
   font-stretch:wider;
   color: white;
   background-color: #2f89fc;
-  border-radius: 20px;
+  border-radius: 10px;
+  height: 12%;
 }
 
 
@@ -131,6 +132,25 @@ p{
 	margin:0.4%;
 }
 
+#inputGroupSelect04{
+	
+	font-size: 1.6rem;
+	font-weight: bolder;
+	margin: 0%;
+	padding-top: 0;
+	padding-bottom: 0;
+	background-color: #ca3e47;
+	color: white;
+}
+
+.nvbtn{
+	height:100%;
+	background-image: url("ref3.jpg");
+	background-size: cover;	
+	width: 45px;
+	padding: 0;
+	background-color: white;
+}
 .scrollbar-near-moon::-webkit-scrollbar-track {
 -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
 background-color: #F5F5F5;
@@ -175,9 +195,10 @@ width: 4px; }
  
  #navbarSupportedContent{
  margin-left: auto;
- padding: 0px;
- width: 20%;
+ padding: 5px;
+ width: 11%;
  text-align: center;
+ font-size: 3rem;
  
  }
  
@@ -189,11 +210,13 @@ width: 4px; }
  
  .btnn{
  height: 35%;
+ color: white;
  }
  
  .righted{
   display: inline-block;
  }
+
  
  @media (max-width: 1028px) {
 	
@@ -224,7 +247,7 @@ width: 4px; }
      
 
  #navbarSupportedContent{
- width: 40%;
+ width: 25%;
  margin-top: 10px;
  margin-bottom: 25px;
  }
@@ -233,18 +256,37 @@ width: 4px; }
      }    
      
      .datepicker {
-        width: 90%;
+        width: 60%;
         height:20%;
         font-size: 3rem;
     }
     
+    .inpdate{
+     font-size: 0.5rem;
+    }
+    
     .myspace{
 
-    margin: 10%;
+    margin: 15%;
     }
     
     .navbar{
 	background-color: black;
 	margin:3%;
+}
+
+#inputGroupSelect04{
+	
+	font-size: 3.2rem;
+	font-weight: bolder;
+	margin: 0%;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.nvbtn{
+	
+	height:100%;
+	width: 78px;
 }
 }
