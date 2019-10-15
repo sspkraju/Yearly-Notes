@@ -45,15 +45,20 @@
                <button type="button" class="btn btn-primary box" data-toggle="modal" data-target="#exampleModal" >+</button>
             </div>
             <div class="text">
-               <div class="alert alert-primary" role="alert">
-                  <p Class="myblack"> <b class="bollld">Friday 20th:</b> Take a note that is first lihjytr and nigtrr krfw,iolhhkh</p>
+
+               <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                  <p Class="myblack" name="myName"> <b class="bollld">Friday 20th:</b> Take a note that is first lihjytr and nigtrr krfw,iolhhkh pagal hhjklhkvghjg</p>
+                  <button type="submit" class="bin"  aria-label="Close">⛔</button>
                </div>
-               <div class="alert alert-primary" role="alert">
+
+               <div class="alert alert-primary alert-dismissible fade show" role="alert">
                   <p Class="myblack"> <b class="bollld">Friday 20th:</b> Take a note that is first lihjytr and nigtrr krfw,iolhhkh</p>
+                  <button type="button" class="bin"  aria-label="Close">⛔</button>
                </div>
-               <div class="alert alert-primary" role="alert">
-                  <p Class="myblack"> <b class="bollld">Friday 20th:</b> Take a note that is first lihjytr and nigtrr krfw,iolhhkh</p>
-               </div>              
+               <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                  <p Class="myblack"> <b class="bollld">Friday 20th:</b> Take a note that </p>
+                  <button type="button" class="bin"  aria-label="Close">⛔</button>
+               </div>            
             </div>
             
             <div Class="myspace">>
@@ -224,6 +229,9 @@
     	  
   	    });
       
-	  
+      $('.bin').click(function() {
+    	  $(this).parent().hide('alert');
+    	})
+    	
    </script> 
 </html>

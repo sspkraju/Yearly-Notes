@@ -132,6 +132,17 @@ p{
 	margin:0.4%;
 }
 
+.bin{
+	position: absolute;
+	bottom: 0;
+    right: 0;
+	border: 0;
+    font-size: 1rem;
+    padding: 0%;
+    background-color: transparent;
+    
+}
+
 #inputGroupSelect04{
 	
 	font-size: 1.6rem;
@@ -170,8 +181,12 @@ background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%); }
 
 .thin::-webkit-scrollbar {
 width: 4px; }
+
+
  .myblack{
- color: black;
+  color: black;
+  margin-bottom: 4.5%;
+  padding-bottom: 2%;
  }
  
  .bollld{
@@ -289,5 +304,10 @@ width: 4px; }
 	
 	height:100%;
 	width: 78px;
+}
+
+.bin{
+	font-size: 3.3rem;
+	padding-bottom:2%;
 }
 }
